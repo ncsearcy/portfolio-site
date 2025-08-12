@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Searcy - Software Engineer Resume</title>
+    <style>
+        body {
+            font-family: 'Calibri', Arial, sans-serif;
+            line-height: 1.4;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            background: white;
+        }
+        
+        .resume {
+            max-width: 8.5in;
+            margin: 0 auto;
+            background: white;
+            padding: 0.75in;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #2c5aa0;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 28px;
+            color: #2c5aa0;
+            font-weight: bold;
+        }
+        
+        .title {
+            font-size: 16px;
+            color: #666;
+            margin: 5px 0;
+        }
+        
+        .contact {
+            font-size: 12px;
+            margin: 10px 0 0 0;
+            color: #555;
+        }
+        
+        .section {
+            margin: 18px 0;
+        }
+        
+        .section h2 {
+            font-size: 14px;
+            color: #2c5aa0;
+            border-bottom: 1px solid #2c5aa0;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        .summary {
+            font-size: 11px;
+            text-align: justify;
+            line-height: 1.5;
+        }
+        
+        .job {
+            margin-bottom: 15px;
+        }
+        
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+        
+        .job-title {
+            font-size: 12px;
+            font-weight: bold;
+            color: #2c5aa0;
+        }
+        
+        .company {
+            font-size: 12px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .dates {
+            font-size: 10px;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .location {
+            font-size: 10px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .responsibilities {
+            font-size: 11px;
+            margin: 0;
+            padding-left: 0;
+        }
+        
+        .responsibilities li {
+            margin-bottom: 3px;
+            list-style-type: none;
+            position: relative;
+            padding-left: 12px;
+        }
+        
+        .responsibilities li:before {
+            content: "•";
+            color: #2c5aa0;
+            position: absolute;
+            left: 0;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            font-size: 11px;
+        }
+        
+        .skill-category {
+            margin-bottom: 8px;
+        }
+        
+        .skill-category strong {
+            color: #2c5aa0;
+            display: block;
+            margin-bottom: 3px;
+        }
+        
+        .education {
+            font-size: 11px;
+        }
+        
+        .degree {
+            font-weight: bold;
+            color: #2c5aa0;
+        }
+        
+        .school {
+            font-weight: bold;
+        }
+        
+        @media print {
+            body { margin: 0; padding: 0; }
+            .resume { box-shadow: none; padding: 0.5in; }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <div class="header">
+            <h1>Nicholas Searcy</h1>
+            <div class="title">Software Developer</div>
+            <div class="contact">
+                Milwaukee, Wisconsin | (414) 369-2829 | ncsearcy@gmail.com | linkedin.com/in/nicholassearcy
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <div class="summary">
+                Results-driven technology consultant with 5+ years of technical experience specializing in system integration, API development, and full-stack solutions. Proven track record in designing and implementing scalable software systems, with expertise in C#, web technologies, and cloud-based platforms. Strong background in troubleshooting complex technical issues, collaborating with cross-functional teams, and delivering robust software solutions that drive business objectives.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div>
+                    <div class="skill-category">
+                        <strong>Programming Languages:</strong>
+                        C#, JavaScript, HTML, CSS, SQL
+                    </div>
+                    <div class="skill-category">
+                        <strong>Frameworks & Libraries:</strong>
+                        .NET Framework, ASP.NET, RESTful APIs, Next.Js, Angular
+                    </div>
+                    <div class="skill-category">
+                        <strong>Development Tools:</strong>
+                        Visual Studio, Git, Azure DevOps
+                    </div>
+                </div>
+                <div>
+                    <div class="skill-category">
+                        <strong>Databases:</strong>
+                        SQL Server, MySQL, Data Migration, PostgreSQL
+                    </div>
+                    <div class="skill-category">
+                        <strong>Cloud & Integration:</strong>
+                        Azure, API Integration, System Architecture, Google Cloud Platform 
+                    </div>
+                    <div class="skill-category">
+                        <strong>Methodologies:</strong>
+                        Agile, System Testing, Documentation
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Professional Experience</h2>
+            
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Client Integration Consultant</div>
+                        <div class="company">Cotality</div>
+                    </div>
+                    <div class="dates">July 2024 - Present</div>
+                </div>
+                <div class="location">Milwaukee, Wisconsin</div>
+                <ul class="responsibilities">
+                    <li>Design and implement scalable integration solutions collaborating with development teams to enhance system architecture</li>
+                    <li>Analyze existing technology infrastructure and develop optimization strategies improving system performance by 25%</li>
+                    <li>Build custom API integrations and middleware solutions to connect disparate business systems</li>
+                    <li>Conduct comprehensive system testing and validation ensuring 99.9% uptime for critical business applications</li>
+                    <li>Create technical documentation and provide training on integrated systems to cross-functional teams</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Associate Integration Services Consultant</div>
+                        <div class="company">CoreLogic</div>
+                    </div>
+                    <div class="dates">July 2022 - July 2024</div>
+                </div>
+                <div class="location">Milwaukee, Wisconsin</div>
+                <ul class="responsibilities">
+                    <li>Developed innovative software features using C# and .NET framework in collaboration with agile development teams</li>
+                    <li>Engineered data migration solutions maintaining data integrity across multiple database systems</li>
+                    <li>Resolved critical production environment issues through systematic debugging and performance optimization</li>
+                    <li>Defined technical specifications and project milestones working closely with product managers and senior developers</li>
+                    <li>Created comprehensive system documentation and conducted technical training sessions for development teams</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Technical Support Specialist / Software Developer</div>
+                        <div class="company">CoreLogic</div>
+                    </div>
+                    <div class="dates">July 2021 - July 2022</div>
+                </div>
+                <div class="location">Milwaukee, Wisconsin</div>
+                <ul class="responsibilities">
+                    <li>Diagnosed and resolved complex technical issues across multiple software applications serving global client base</li>
+                    <li>Developed automated support tools and scripts reducing resolution time by 40% for common technical issues</li>
+                    <li>Collaborated with development teams to identify and fix software bugs in production environments</li>
+                    <li>Created user-facing documentation and technical guides improving customer self-service capabilities</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Technical Support Analyst</div>
+                        <div class="company">Northwestern Mutual</div>
+                    </div>
+                    <div class="dates">October 2019 - March 2021</div>
+                </div>
+                <div class="location">Milwaukee, Wisconsin</div>
+                <ul class="responsibilities">
+                    <li>Provided technical support for cloud-based applications maintaining 95% customer satisfaction rating</li>
+                    <li>Developed technical documentation and training materials for senior management and end users</li>
+                    <li>Collaborated with vendors on system integrations and component sourcing for advanced technical solutions</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Education & Certifications</h2>
+            <div class="education">
+                <div class="degree">Associate of Arts and Sciences - Computer Simulation and Gaming</div>
+                <div class="school">Milwaukee Area Technical College</div>
+                <br>
+                <strong>Professional Certifications:</strong><br>
+                • Complete Web Developer Certification (Zero to Mastery)<br>
+                • HDI Certified Customer Service Representative<br>
+                • Cultivating a Growth Mindset Certification
+            </div>
+        </div>
+    </div>
+</body>
+</html>
