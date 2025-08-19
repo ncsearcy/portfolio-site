@@ -117,13 +117,13 @@ export default function Contact() {
                 <VStack spacing={4} align="start">
                   <Button
                     as="a"
-                    href="mailto:ncsearcy@nicholassearcy.com"
+                    href="mailto:nicholas@nicholassearcy.com"
                     leftIcon={<EmailIcon />}
                     variant="ghost"
                     justifyContent="start"
                     p={0}
                   >
-                    ncsearcy@nicholassearcy.com
+                    nicholas@nicholassearcy.com
                   </Button>
                   
                   <Button
