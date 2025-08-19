@@ -38,11 +38,11 @@ export default function Portfolio() {
       demo: 'https://task-app-gules.vercel.app/'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'A responsive weather dashboard that provides detailed weather information and forecasts using external APIs.',
-      technologies: ['React', 'Chart.js', 'OpenWeather API', 'CSS3'],
-      link: 'https://github.com/yourname/weather-dashboard',
-      demo: 'https://your-weather-demo.com'
+      title: 'Print On Demand Project',
+      description: 'A Print on Demand Console Application that was developed for my employer. It is used to help process Book requests from our clients',
+      technologies: ['C#'],
+      link: 'https://github.com/nsearcy-clgx/PrintOnDemand',
+      demo: 'https://github.com/nsearcy-clgx/PrintOnDemand'
     },
     {
       title: 'Portfolio Website',
