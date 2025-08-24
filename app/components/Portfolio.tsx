@@ -24,11 +24,11 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and admin dashboard.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      link: 'https://github.com/yourname/ecommerce-project',
-      demo: 'https://your-ecommerce-demo.com'
+      title: 'Als Pressure Washing',
+      description: 'A full-stack e-commerce solution for a friends Pressure Washing business built with Vite,js, Express, Node.Js and Render.',
+      technologies: ['React', 'Node.js', 'Express', 'Render', 'Vite.Js'],
+      link: 'https://github.com/ncsearcy/Als-Pressure-Washing',
+      demo: 'https://als-pressure-washing.vercel.app/'
     },
     {
       title: 'Task Management App',
